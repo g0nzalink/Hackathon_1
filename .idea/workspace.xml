@@ -1,4 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29393d2c-67e7-426b-99d7-83b7e54bb80c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/application/EmpresaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/domain/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/domain/EmpresaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/infrastructure/EmpresaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Usuario/application/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Usuario/domain/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Usuario/domain/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Usuario/infrastructure/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/application/empresaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/empresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/empresaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/infrastructure/empresaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/usuario/application/usuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/usuario/domain/usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/usuario/domain/usuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/usuario/infrastructure/usuarioRepository.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EmPuiquin24"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:g0nzalink/Hackathon_1.git",
+    "accountId": "32d86abd-9881-4c7a-83dd-ea57458ec3d8"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2wjxTEeD10JkFWByTyI2JcAfDSi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/Archie/Desktop/Utec/Ciclo III/Desarrollo Basado en Plataformas/Hackathon_1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HackathonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mi-proyecto-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hackathon_1.HackathonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29393d2c-67e7-426b-99d7-83b7e54bb80c" name="Changes" comment="" />
+      <created>1746568789668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746568789668</updated>
+      <workItem from="1746568790728" duration="1037000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>
