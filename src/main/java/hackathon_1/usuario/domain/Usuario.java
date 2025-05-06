@@ -1,4 +1,4 @@
 package hackathon_1.usuario.domain;
 
-public class usuario {
+public class Usuario {
 }
