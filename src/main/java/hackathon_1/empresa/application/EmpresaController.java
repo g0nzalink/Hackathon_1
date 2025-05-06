@@ -1,0 +1,4 @@
+package hackathon_1.empresa.application;
+
+public class EmpresaController {
+}

@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="29393d2c-67e7-426b-99d7-83b7e54bb80c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/application/EmpresaController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/domain/Empresa.java" afterDir="false" />
@@ -24,6 +25,15 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/usuario/domain/usuario.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/usuario/domain/usuarioService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/usuario/infrastructure/usuarioRepository.java" beforeDir="false" />
+=======
+    <list default="true" id="534a75b4-88fb-4203-bf99-f86a1adbcda2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa_admin/domain/EmpresaAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/application/empresaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/application/EmpresaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/empresaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/EmpresaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/infrastructure/empresaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/infrastructure/EmpresaRepository.java" afterDir="false" />
+>>>>>>> 8a4f6b1a2580a25d0ccf87e1a858c756c9b31dec
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +43,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="Interface" />
+=======
+        <option value="Class" />
+>>>>>>> 8a4f6b1a2580a25d0ccf87e1a858c756c9b31dec
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
     "state": "OPEN",
@@ -80,6 +95,14 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+>>>>>>> 8a4f6b1a2580a25d0ccf87e1a858c756c9b31dec
   <component name="RunManager">
     <configuration name="HackathonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mi-proyecto-springboot" />
@@ -89,6 +112,7 @@
       </method>
     </configuration>
   </component>
+<<<<<<< HEAD
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -111,4 +135,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+=======
+  <component name="TaskManager">
+    <servers />
+  </component>
+>>>>>>> 8a4f6b1a2580a25d0ccf87e1a858c756c9b31dec
 </project>
