@@ -1,0 +1,40 @@
+Index: src/main/java/hackathon_1/empresa_admin/domain/empresa_admin.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hackathon_1/empresa_admin/domain/empresa_admin.java b/src/main/java/hackathon_1/empresa_admin/domain/empresa_admin.java
+new file mode 100644
+--- /dev/null	(date 1746568882894)
++++ b/src/main/java/hackathon_1/empresa_admin/domain/empresa_admin.java	(date 1746568882894)
+@@ -0,0 +1,11 @@
++package hackathon_1.empresa_admin.domain;
++
++import jakarta.persistence.Entity;
++import jakarta.persistence.Table;
++
++@Entity
++@Table(name = "empresa_admin")
++@Data
++@NoArgsConstructor
++public class Empresa_admin extends User {
++}
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\" defaultProject=\"true\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 5bbd60f7944cfe76507e506f9d929ebb1b8a2729)
++++ b/.idea/vcs.xml	(date 1746567881578)
+@@ -1,4 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="VcsDirectoryMappings" defaultProject="true" />
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
+ </project>
+\ No newline at end of file

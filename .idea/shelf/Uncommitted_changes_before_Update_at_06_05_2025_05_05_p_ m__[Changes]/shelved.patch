@@ -1,0 +1,64 @@
+Index: src/main/java/hackathon_1/empresa/domain/empresa.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hackathon_1/empresa/domain/empresa.java b/src/main/java/hackathon_1/empresa/domain/Empresa.java
+rename from src/main/java/hackathon_1/empresa/domain/empresa.java
+rename to src/main/java/hackathon_1/empresa/domain/Empresa.java
+--- a/src/main/java/hackathon_1/empresa/domain/empresa.java	(revision c05b13502e3c28516ba7fcaac2fe082946b02bb5)
++++ b/src/main/java/hackathon_1/empresa/domain/Empresa.java	(date 1746569017063)
+@@ -1,4 +1,4 @@
+ package hackathon_1.empresa.domain;
+ 
+-public class empresa {
++public class Empresa {
+ }
+Index: src/main/java/hackathon_1/empresa/domain/empresaService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hackathon_1/empresa/domain/empresaService.java b/src/main/java/hackathon_1/empresa/domain/EmpresaService.java
+rename from src/main/java/hackathon_1/empresa/domain/empresaService.java
+rename to src/main/java/hackathon_1/empresa/domain/EmpresaService.java
+--- a/src/main/java/hackathon_1/empresa/domain/empresaService.java	(revision c05b13502e3c28516ba7fcaac2fe082946b02bb5)
++++ b/src/main/java/hackathon_1/empresa/domain/EmpresaService.java	(date 1746569017079)
+@@ -1,4 +1,4 @@
+ package hackathon_1.empresa.domain;
+ 
+-public class empresaService {
++public class EmpresaService {
+ }
+Index: src/main/java/hackathon_1/empresa/application/empresaController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hackathon_1/empresa/application/empresaController.java b/src/main/java/hackathon_1/empresa/application/EmpresaController.java
+rename from src/main/java/hackathon_1/empresa/application/empresaController.java
+rename to src/main/java/hackathon_1/empresa/application/EmpresaController.java
+--- a/src/main/java/hackathon_1/empresa/application/empresaController.java	(revision c05b13502e3c28516ba7fcaac2fe082946b02bb5)
++++ b/src/main/java/hackathon_1/empresa/application/EmpresaController.java	(date 1746569017044)
+@@ -1,4 +1,4 @@
+ package hackathon_1.empresa.application;
+ 
+-public class empresaController {
++public class EmpresaController {
+ }
+Index: src/main/java/hackathon_1/empresa/infrastructure/empresaRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hackathon_1/empresa/infrastructure/empresaRepository.java b/src/main/java/hackathon_1/empresa/infrastructure/EmpresaRepository.java
+rename from src/main/java/hackathon_1/empresa/infrastructure/empresaRepository.java
+rename to src/main/java/hackathon_1/empresa/infrastructure/EmpresaRepository.java
+--- a/src/main/java/hackathon_1/empresa/infrastructure/empresaRepository.java	(revision c05b13502e3c28516ba7fcaac2fe082946b02bb5)
++++ b/src/main/java/hackathon_1/empresa/infrastructure/EmpresaRepository.java	(date 1746569017026)
+@@ -1,4 +1,4 @@
+ package hackathon_1.empresa.infrastructure;
+ 
+-public interface empresaRepository {
++public interface EmpresaRepository {
+ }

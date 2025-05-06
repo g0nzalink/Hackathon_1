@@ -1,4 +1,4 @@
 package hackathon_1.empresa.domain;
 
-public class empresaService {
+public class Empresa {
 }

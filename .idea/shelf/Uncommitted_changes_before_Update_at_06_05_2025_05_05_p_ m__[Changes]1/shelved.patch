@@ -1,0 +1,122 @@
+Index: src/main/java/hackathon_1/empresa_admin/domain/EmpresaAdmin.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hackathon_1/empresa_admin/domain/EmpresaAdmin.java b/src/main/java/hackathon_1/empresa_admin/domain/EmpresaAdmin.java
+new file mode 100644
+--- /dev/null	(date 1746569130345)
++++ b/src/main/java/hackathon_1/empresa_admin/domain/EmpresaAdmin.java	(date 1746569130345)
+@@ -0,0 +1,32 @@
++package hackathon_1.empresa_admin.domain;
++
++
++import hackathon_1.empresa.domain.Empresa;
++import jakarta.persistence.Entity;
++import jakarta.persistence.JoinColumn;
++import jakarta.persistence.OneToOne;
++import jakarta.persistence.Table;
++import lombok.AllArgsConstructor;
++import lombok.Data;
++import lombok.NoArgsConstructor;
++import org.springframework.security.core.userdetails.User;
++
++@Entity
++@Table(name = "company_admins")
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++public class EmpresaAdmin extends User{
++    @OneToOne
++    @JoinColumn(name = "admin_company_id",unique = true)
++    private Empresa empresa;
++
++    public EmpresaAdmin(User user, Empresa empresa){
++        super(user.getId(), user.getFirstName(), user.getLastName(),
++                user.getEmail(), user.getPassword(), user.getCompany(),
++                user.getLimits(), user.getRequests(), user.getRoles());
++        this.empresa = empresa;
++        this.getRoles().add("ROLE_COMPANY_ADMIN")
++
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"PropertiesComponent\">{}</component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c05b13502e3c28516ba7fcaac2fe082946b02bb5)
++++ b/.idea/workspace.xml	(date 1746569130466)
+@@ -1,4 +1,48 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="PropertiesComponent">{}</component>
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="534a75b4-88fb-4203-bf99-f86a1adbcda2" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa_admin/domain/EmpresaAdmin.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/application/empresaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/application/EmpresaController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/Empresa.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/empresaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/domain/EmpresaService.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/infrastructure/empresaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/empresa/infrastructure/EmpresaRepository.java" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "git-widget-placeholder": "main",
++    "node.js.selected.package.tslint": "(autodetect)"
++  }
++}]]></component>
++  <component name="RunManager">
++    <configuration name="HackathonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
++      <module name="mi-proyecto-springboot" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="hackathon_1.HackathonApplication" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++  </component>
++  <component name="TaskManager">
++    <servers />
++  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\" defaultProject=\"true\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision c05b13502e3c28516ba7fcaac2fe082946b02bb5)
++++ b/.idea/vcs.xml	(date 1746568888034)
+@@ -1,4 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="VcsDirectoryMappings" defaultProject="true" />
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
+ </project>
+\ No newline at end of file
