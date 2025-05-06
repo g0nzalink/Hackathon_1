@@ -1,5 +1,6 @@
 package hackathon_1.Empresa.domain;
 
+import hackathon_1.Usuario.domain.Usuario;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -17,9 +18,7 @@ public class Empresa {
 
     private boolean active;
 
-    private CompanyAdmin admin;
-
-    private List<User> users;
+    private List<Usuario> users;
 
     private List<ModelRestriction> restrictions;
 
