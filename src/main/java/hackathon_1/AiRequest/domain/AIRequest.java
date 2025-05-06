@@ -4,9 +4,10 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.security.core.userdetails.User;
+import hackathon_1.Usuario.domain.Usuario;
 
 import java.time.LocalDateTime;
+
 
 @Entity
 @Table(name = "ai_requests")
@@ -21,7 +22,7 @@ public class AIRequest {
 
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
-    private User user;
+    private Usuario user;
 
     @Column(nullable = false)
     private String modelType;
@@ -36,8 +37,7 @@ public class AIRequest {
     private String responseText;
 
     @Column
-    private String mediaFileName; // Solo para solicitudes multimodales
-
+    private String mediaFileName;
     @Column(nullable = false)
     private Integer inputTokens;
 

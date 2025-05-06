@@ -1,5 +1,6 @@
 package hackathon_1.UserLimits.domain;
 
+import hackathon_1.Usuario.domain.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,7 +18,7 @@ public class UserLimits {
 
     @ManyToOne
     @JoinColumn(name = "user_id",nullable = false)
-    private User user;
+    private Usuario user;
 
     @Column(nullable = false)
     private String modelType;
