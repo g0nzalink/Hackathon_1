@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserLimits {
+public class    UserLimits {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
