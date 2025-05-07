@@ -1,13 +1,12 @@
-package hackathon_1.AiRequest.domain;
+package hackathon_1.AIRequest.domain;
 
+import hackathon_1.User.domain.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import hackathon_1.Usuario.domain.Usuario;
 
 import java.time.LocalDateTime;
-
 
 @Entity
 @Table(name = "ai_requests")
@@ -15,41 +14,50 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AIRequest {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @ManyToOne
-    @JoinColumn(name = "user_id", nullable = false)
-    private Usuario user;
 
     @Column(nullable = false)
     private String modelType;
 
     @Column(nullable = false)
+    private String modelId;
+
+    @Column(nullable = false)
     private String modelName;
 
-    @Column(nullable = false, length = 4000)
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String queryText;
 
-    @Column(length = 8000)
+    @Column(columnDefinition = "TEXT")
     private String responseText;
 
-    @Column
-    private String mediaFileName;
-    @Column(nullable = false)
-    private Integer inputTokens;
+    private String fileName; // Para solicitudes multimodales
 
     @Column(nullable = false)
-    private Integer outputTokens;
+    private long inputTokens;
 
     @Column(nullable = false)
-    private LocalDateTime requestTime;
+    private long outputTokens;
+
+    @Column(nullable = false)
+    private long totalTokens;
 
     @Column(nullable = false)
     private boolean successful;
 
-    @Column
     private String errorMessage;
+
+    @Column(nullable = false)
+    private LocalDateTime requestTime;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+
+    @PrePersist
+    public void prePersist() {
+        requestTime = LocalDateTime.now();
+    }
 }
