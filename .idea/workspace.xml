@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29393d2c-67e7-426b-99d7-83b7e54bb80c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/UserLimits/domain/UserLimits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/UserLimits/domain/UserLimits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/AiRequest/domain/AIRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/application/EmpresaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/domain/Empresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/domain/EmpresaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/Empresa/infrastructure/EmpresaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/HackathonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/UserLimits/domain/UserLimits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/Usuario/application/UsuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/Usuario/domain/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/Usuario/infrastructure/UsuarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +38,12 @@
     &quot;assignee&quot;: &quot;EmPuiquin24&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/g0nzalink/Hackathon_1.git",
-    "accountId": "15bc8731-a84b-40ae-9ddc-25494fb5f606"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/g0nzalink/Hackathon_1.git&quot;,
+    &quot;accountId&quot;: &quot;15bc8731-a84b-40ae-9ddc-25494fb5f606&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -53,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.HackathonApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "restart",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/Archie/Desktop/Utec/Ciclo III/Desarrollo Basado en Plataformas/Hackathon_1",
     "node.js.detected.package.eslint": "true",
