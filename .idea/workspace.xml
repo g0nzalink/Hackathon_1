@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29393d2c-67e7-426b-99d7-83b7e54bb80c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Company/domain/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Company/infrastructure/dto/CompanyConsumptionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Company/infrastructure/dto/CompanyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Company/infrastructure/dto/CompanyResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/User/domain/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/UserLimits/domain/UserLimits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/UserLimits/domain/UserLimits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/AIRequest/infrastructure/AIRequestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/AIRequest/infrastructure/AIRequestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/Company/domain/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Company/domain/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/Company/infrastructure/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/Company/infrastructure/CompanyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/CompanyRestrictions/infrastructure/CompanyRestrictionsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/CompanyRestrictions/infrastructure/CompanyRestrictionsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/User/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/User/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/User/infrastructure/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/User/infrastructure/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/UserLimit/infrastructure/UserLimitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/UserLimit/infrastructure/UserLimitRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -29,12 +42,12 @@
     &quot;assignee&quot;: &quot;EmPuiquin24&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/g0nzalink/Hackathon_1.git",
-    "accountId": "15bc8731-a84b-40ae-9ddc-25494fb5f606"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/g0nzalink/Hackathon_1/&quot;,
+    &quot;accountId&quot;: &quot;7e226f12-f4c7-4f4b-99b0-a545bc5e4d4b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -43,27 +56,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.HackathonApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/Archie/Desktop/Utec/Ciclo III/Desarrollo Basado en Plataformas/Hackathon_1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.HackathonApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Archie/Desktop/Utec/Ciclo III/Desarrollo Basado en Plataformas/Hackathon_1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -81,8 +95,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
@@ -95,10 +109,24 @@
       <option name="presentableId" value="Default" />
       <updated>1746575749747</updated>
       <workItem from="1746575750959" duration="756000" />
+      <workItem from="1746598559023" duration="2846000" />
+      <workItem from="1746601507413" duration="747000" />
+      <workItem from="1746602274451" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
