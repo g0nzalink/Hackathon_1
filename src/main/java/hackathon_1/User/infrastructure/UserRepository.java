@@ -1,6 +1,9 @@
 package hackathon_1.User.infrastructure;
 
 import hackathon_1.User.domain.User;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
