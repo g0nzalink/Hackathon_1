@@ -3,9 +3,7 @@ package hackathon_1.Company.domain;
 import hackathon_1.CompanyRestrictions.domain.CompanyRestrictions;
 import hackathon_1.User.domain.User;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
@@ -14,6 +12,8 @@ import java.util.Set;
 @Entity
 @Table(name = "companies")
 @Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Company {
