@@ -1,8 +1,8 @@
 package hackathon_1.Company.domain;
 
-import hackathon_1.Company.infrastructure.dto.CompanyConsumptionDTO;
-import hackathon_1.Company.infrastructure.dto.CompanyDTO;
-import hackathon_1.Company.infrastructure.dto.CompanyResponseDTO;
+import hackathon_1.Company.dto.CompanyConsumptionDTO;
+import hackathon_1.Company.dto.CompanyDTO;
+import hackathon_1.Company.dto.CompanyResponseDTO;
 
 import java.util.List;
 import java.util.Optional;

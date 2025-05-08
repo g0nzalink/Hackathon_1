@@ -1,4 +1,4 @@
-package hackathon_1.Company.infrastructure.dto;
+package hackathon_1.Company.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
