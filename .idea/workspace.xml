@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29393d2c-67e7-426b-99d7-83b7e54bb80c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/CompanyRestrictions/infrastructure/dto/CompanyRestrictionsDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/HackathonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/HackathonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/User/infrastructure/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/User/infrastructure/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackathon_1/User/infrastructure/config/InitialDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackathon_1/User/infrastructure/config/InitialDataLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.HackathonApplication.executor": "Debug",
+    "Spring Boot.HackathonApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
